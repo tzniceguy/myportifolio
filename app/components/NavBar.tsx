@@ -2,7 +2,7 @@ import React from "react";
 import Link from "next/link";
 const navbaritems = [
   { title: "about", href: "/" },
-  { title: "services", href: "/experiences" },
+  { title: "services", href: "/work" },
   { title: "blog", href: "/blog" },
 ];
 export default function NavBar() {
