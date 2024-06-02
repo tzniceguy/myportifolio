@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Introduction() {
   return (
-    <div className="gap-6 space-y-4 border-b-2 m-2">
+    <div className="space-y-4 border-b-2 m-2">
       <h2 className="text-xl">Hello, I am Joe from Tanzania</h2>
       <p className="">
         A <strong>software Developer</strong>, interested in building intristic
