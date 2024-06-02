@@ -3,8 +3,6 @@ import { Space_Grotesk } from "next/font/google";
 import "./globals.css";
 
 const space = Space_Grotesk({ subsets: ["latin"] });
-// <uniquifier>: Use a unique and descriptive class name
-// <weight>: Use a value from 300 to 700
 
 export const metadata: Metadata = {
   title: "Portifolio",
@@ -18,7 +16,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={space.className}>{children}</body>
+      <body
+        className={`${space.className} flex min-h-screen flex-col gap-4 px-6 py-12 md:px-72  dark:bg-gray-900`}
+      >
+        {children}
+      </body>
     </html>
   );
 }
