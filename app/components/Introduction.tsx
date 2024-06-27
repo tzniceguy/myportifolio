@@ -2,11 +2,12 @@ import React from "react";
 
 export default function Introduction() {
   return (
-    <div className="space-y-4 border-b-2 m-2">
-      <h2 className="text-xl">Hello, I am Joe from Tanzania</h2>
+    <div className="space-y-4 m-2 pb-4">
+      <h2 className="text-xl font-semibold">Hello, I am Joe</h2>
       <p className="">
-        A <strong>software Developer</strong>, interested in building intristic
-        backend puzzles and crafting elegant frontend for web applications.
+        A <strong>software developer</strong> from Tanzania, interested in
+        building intristic backend puzzles and crafting elegant frontend for web
+        applications.
       </p>
       <p className="">
         I have been keeping with the technological advancement by learning best

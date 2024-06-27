@@ -4,7 +4,7 @@ import Link from "next/link";
 
 export default function Project() {
   return (
-    <div>
+    <div className="space-y-6">
       {build.map((build) => (
         <div key={build.title}>
           <h2>{build.title}</h2>
