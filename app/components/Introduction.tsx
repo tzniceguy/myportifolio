@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Introduction() {
   return (
-    <div className="space-y-4 m-2 pb-4">
+    <div className="space-y-4  pb-4">
       <h2 className="text-xl font-semibold">Hello, I am Joe</h2>
       <p className="">
         A <strong>software developer</strong> from Tanzania, interested in

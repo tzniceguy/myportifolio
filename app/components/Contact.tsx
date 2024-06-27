@@ -3,7 +3,7 @@ import React from "react";
 
 export default function Contact() {
   return (
-    <div className="space-y-6">
+    <div className="space-y-6 pb-6">
       <h2 className="text-xl font-semibold">connect with me</h2>
       <ul>
         <li>
