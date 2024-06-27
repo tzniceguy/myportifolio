@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Space_Grotesk } from "next/font/google";
+import { ThemeProvider } from "./components/theme-provider";
 import "./globals.css";
 
 const space = Space_Grotesk({ subsets: ["latin"] });
@@ -19,7 +20,14 @@ export default function RootLayout({
       <body
         className={`${space.className} flex min-h-screen flex-col gap-4 md:px-72  dark:bg-gray-900`}
       >
-        {children}
+        <ThemeProvider
+          attribute="class"
+          defaultTheme="system"
+          enableSystem
+          disableTransitionOnChange
+        >
+          {children}
+        </ThemeProvider>
       </body>
     </html>
   );
