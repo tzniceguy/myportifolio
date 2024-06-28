@@ -7,10 +7,6 @@ export default function Contact() {
       <h2 className="text-xl font-semibold">connect with me</h2>
       <ul>
         <li>
-          <span className="font-semibold">email:</span>
-          <Link href="mailto:joeshimbi@gmail.com">joeshimbi@gmail.com</Link>
-        </li>
-        <li>
           <span className="font-semibold">X, formely twitter:</span>
           <Link href="x.com/tzniceguy">@tzniceguy</Link>
         </li>
