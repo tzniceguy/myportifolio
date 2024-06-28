@@ -1,13 +1,8 @@
 import React from "react";
-import NavBar from "../components/NavBar";
 
-export default function Work() {
+export default function Page() {
   return (
-    <div className="space-y-4 min-h-screen">
-      <div>
-        <h1 className="font-semibold text-2xl">work</h1>
-      </div>
-      <NavBar />
+    <div className="">
       <div className="border-b-2 m-2">The Summary of my career in Tech</div>
       <div className="border-b-2 m-2 space-y-3">
         <h2 className="text-xl font-semibold">Skills</h2>
