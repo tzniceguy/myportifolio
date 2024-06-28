@@ -30,7 +30,7 @@ export default function RootLayout({
         >
           <main className="space-y-6  py-12">
             <div className="space-y-6">
-              <h1 className="font-semibold text-2xl">work</h1>
+              <h1 className="font-semibold text-2xl">about</h1>
               <div>
                 <NavBar />
               </div>

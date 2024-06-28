@@ -15,7 +15,7 @@ export default function NavBar() {
 
   return (
     <div className="space-y-6">
-      <ul className="flex space-x-6 justify-end">
+      <ul className="flex space-x-2 justify-end">
         {navbaritems.map((link) => (
           <li key={link.title}>
             <Link
