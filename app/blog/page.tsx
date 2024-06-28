@@ -2,5 +2,11 @@ import React from "react";
 import NavBar from "../components/NavBar";
 
 export default function Page() {
-  return <div className=""></div>;
+  return (
+    <div className="">
+      <div>
+        <span>Comming Soon</span>
+      </div>
+    </div>
+  );
 }
