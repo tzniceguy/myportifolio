@@ -35,7 +35,7 @@ export default function BlogTable() {
             <tr key={post.id} className="border-b hover:bg-marshland-500">
               <td>{post.created_at}</td>
               <td>
-                <Link href={`/post/${post.id}`}>{post.title}</Link>
+                <Link href={`blog/post/${post.id}`}>{post.title}</Link>
               </td>
             </tr>
           ))}
