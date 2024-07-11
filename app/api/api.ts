@@ -5,7 +5,7 @@ const API_URL = "http://localhost:8000/api/";
 
 export const fetchPosts = async () => {
   try {
-    const response = await axios.get(`${API_URL}`);
+    const response = await axios.get(`${API_URL}posts`);
     return response.data;
   } catch (error) {
     console.error("error fetching posts:", error);
@@ -15,7 +15,7 @@ export const fetchPosts = async () => {
 
 export const fetchPostById = async (id: number): Promise<Post> => {
   try {
-    const response = await axios.get(`${API_URL}/${id}/`);
+    const response = await axios.get(`${API_URL}post/${id}/`);
     return response.data;
   } catch (error) {
     console.error("error fetching post", error);
