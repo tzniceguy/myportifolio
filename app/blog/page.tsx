@@ -1,6 +1,6 @@
 import React from "react";
-import NavBar from "../components/NavBar";
-import BlogTable from "../components/blogtable";
+import BlogTable from "./components/blogtable";
+import { fetchPosts } from "../api/api";
 
 export default function Page() {
   return (
