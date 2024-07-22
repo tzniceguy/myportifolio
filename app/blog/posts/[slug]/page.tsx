@@ -19,7 +19,7 @@ async function getPostData(slug: Post) {
   }
 }
 
-export default async function Page({ params }) {
+export default async function Page({ params }: { params: { slug: Post } }) {
   const { slug } = params;
   const post = await getPostData(slug);
 
