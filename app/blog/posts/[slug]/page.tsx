@@ -26,7 +26,7 @@ export default async function Page({ params }: { params: { slug: Post } }) {
   return (
     <article>
       <h1>{post.title}</h1>
-      <div>{post.body}</div>
+      <div>{post.content}</div>
       <div>{post.created_at}</div>
     </article>
   );
