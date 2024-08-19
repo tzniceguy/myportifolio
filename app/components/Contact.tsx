@@ -8,11 +8,11 @@ export default function Contact() {
       <ul>
         <li>
           <span className="font-semibold">X, formely twitter:</span>
-          <Link href="x.com/tzniceguy">@tzniceguy</Link>
+          <a href="x.com/tzniceguy">@tzniceguy</a>
         </li>
         <li>
           <span className="font-semibold">github:</span>
-          <Link href="github.com/tzniceguy">@tzniceguy</Link>
+          <a href="github.com/tzniceguy">@tzniceguy</a>
         </li>
       </ul>
     </div>
