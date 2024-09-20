@@ -20,7 +20,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${space.className} flex min-h-screen space-y-6  py-12 px-4 flex-col gap-4 md:px-72 md:text-xl dark:bg-marshland-950`}
+        className={`${space.className} flex min-h-screen space-y-6 py-12 px-4 flex-col gap-4 md:px-72 md:text-xl dark:bg-marshland-950`}
       >
         <ThemeProvider
           attribute="class"
@@ -28,9 +28,9 @@ export default function RootLayout({
           enableSystem
           disableTransitionOnChange
         >
-          <main className="space-y-6  py-12">
+          <main className="space-y-6 py-12">
             <div className="space-y-6">
-              <h1 className="font-bold text-2xl md:text-5xl">about</h1>
+              <h1 className="font-bold text-2xl md:text-5xl"></h1>
               <div>
                 <NavBar />
               </div>

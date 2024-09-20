@@ -1,4 +1,3 @@
-import NavBar from "./components/NavBar";
 import Introduction from "./components/Introduction";
 import Showcase from "./components/Showcase";
 import Contact from "./components/Contact";

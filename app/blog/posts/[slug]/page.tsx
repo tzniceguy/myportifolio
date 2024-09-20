@@ -24,10 +24,12 @@ export default async function Page({ params }: { params: { slug: Post } }) {
   const post = await getPostData(slug);
 
   return (
-    <article>
-      <h1>{post.title}</h1>
+    <article className="space-y-3">
+      <h1 className="font-semibold">{post.title}</h1>
       <div>{post.content}</div>
-      <div>{post.created_at}</div>
+      <div>
+        <span className="text-sm">{post.created_at}</span>
+      </div>
     </article>
   );
 }
