@@ -30,4 +30,9 @@ export const build = [
       "A semister project i made in Data insertion and retrieval from database using C and Sqlite Database",
     link: "https:github.com/tzniceguy",
   },
+  {
+    title: "mrsoko",
+    description: "a simple landing page for a grocery store made with nextjs",
+    link: "mrsoko.vercel.app",
+  },
 ];
