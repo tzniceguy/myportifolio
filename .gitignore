@@ -35,5 +35,5 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 
-#incomplete api
+#incomplete rest api
 /app/api/
