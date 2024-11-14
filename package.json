@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "axios": "^1.7.2",
+    "caniuse-lite": "^1.0.30001680",
     "clsx": "^2.1.1",
     "next": "14.1.4",
     "next-themes": "^0.3.0",
