@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL = "http://tzniceguyblog.deploy.tz/api/";
+const API_URL = "https://tzniceguyblog.deploy.tz/api/";
 
 export const fetchPosts = async () => {
   try {
