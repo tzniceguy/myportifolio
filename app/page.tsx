@@ -1,6 +1,6 @@
-import Introduction from "./components/Introduction";
-import Showcase from "./components/Showcase";
-import Contact from "./components/Contact";
+import Introduction from "@/components/introduction";
+import Showcase from "@/components/showcase";
+import Contact from "@/components/contact";
 
 export default function Home() {
   return (

@@ -3,8 +3,8 @@
 import React from "react";
 import { useEffect, useState } from "react";
 import Link from "next/link";
-import { fetchPosts } from "@/app/api/api";
-import { Post } from "@/app/interfaces/post";
+import { fetchPosts } from "@/api/api";
+import { Post } from "@/lib/post";
 
 export default function BlogTable() {
   const [posts, setPosts] = useState<Post[]>([]);

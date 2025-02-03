@@ -1,5 +1,5 @@
 import React from "react";
-import { build } from "../data";
+import { build } from "@/lib/data";
 import Link from "next/link";
 
 export default function Project() {

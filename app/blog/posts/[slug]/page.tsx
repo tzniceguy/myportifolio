@@ -1,5 +1,5 @@
-import { fetchPost, fetchPosts } from "@/app/api/api";
-import { Post } from "../../../interfaces/post";
+import { fetchPost, fetchPosts } from "@/api/api";
+import { Post } from "@/lib/post";
 
 export async function generateStaticParams() {
   const response = await fetchPosts();
