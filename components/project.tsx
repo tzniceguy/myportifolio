@@ -1,22 +1,19 @@
 import React from "react";
 import { build } from "@/lib/data";
-import Link from "next/link";
+import Card from "./project-card";
+import { title } from "process";
 
 export default function Project() {
   return (
-    <div className="space-y-6">
-      {build.map((build) => (
-        <div key={build.title} className="pb-2 space-y-3">
-          <h2 className="font-semibold">{build.title}</h2>
-          <p>{build.description}</p>
-          <p>
-            <span>
-              <Link href={build.link} className="underline">
-                Visit
-              </Link>
-            </span>
-          </p>
-        </div>
+    <div className="grid md:grid-cols-3">
+      {build.map((project) => (
+        <Card
+          key={project.title}
+          url={project.link}
+          title={project.title}
+          description={project.description}
+          stack={project.stack}
+        />
       ))}
     </div>
   );
