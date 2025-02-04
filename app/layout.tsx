@@ -21,7 +21,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <body
-        className={`${space.className} flex min-h-screen space-y-6 py-12 px-8 flex-col gap-4 md:px-48 md:text-xl dark:bg-marshland-950`}
+        className={`${space.className} flex min-h-screen space-y-6 py-12 px-8 flex-col gap-4 md:px-48 md:text-xl dark:bg-marshland-950 dark:text-gray-200`}
       >
         <ThemeProvider
           attribute="class"
