@@ -1,6 +1,6 @@
 export const build = [
   {
-    title: "chronicles",
+    title: "Chronicles",
     description:
       "This repository chronicles my journey through a 30-day challenge focused on building user interfaces using Next.js and React. Each day, I will create a new UI component or page inspired by online design resources",
     link: "https://30daysfrontenddevelopment.vercel.app/",
