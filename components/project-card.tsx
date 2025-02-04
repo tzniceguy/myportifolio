@@ -15,7 +15,7 @@ export default function Card({
   stack = [],
 }: CardProps) {
   return (
-    <div className="p-2 shadow-md rounded-md hover:shadow-lg transition-shadow">
+    <div className="my-2 md:shadow-md rounded-md hover:shadow-lg transition-shadow">
       <Link href={url} className="font-semibold text-lg mb-4 hover:underline">
         {title}
       </Link>
