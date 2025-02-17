@@ -9,6 +9,10 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@mdx-js/loader": "^3.1.0",
+    "@mdx-js/react": "^3.1.0",
+    "@next/mdx": "^15.1.7",
+    "@types/mdx": "^2.0.13",
     "axios": "^1.7.2",
     "caniuse-lite": "^1.0.30001680",
     "clsx": "^2.1.1",
