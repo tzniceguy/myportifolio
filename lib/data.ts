@@ -1,4 +1,4 @@
-export const build = [
+export const projects = [
   {
     title: "Chronicles",
     description:
@@ -7,11 +7,18 @@ export const build = [
     stack: ["Next.js", "React", "Tailwind CSS"],
   },
   {
-    title: "Future Allied Website",
+    title: "snbl",
     description:
-      "Website for a Tanzanian Registered company. The company has been offering several services to mining sector, Government Authorities and Private companies.",
-    link: "https://futureallied.co.tz",
-    stack: ["Next.js", "React", "Tailwind CSS"],
+      "A full-featured e-commerce platform  that offers flexible payment options including installment plans. Features include product catalog, shopping cart, secure checkout process, and integrated payment gateway for installment payments.",
+    link: "snbl.vercel.app",
+    stack: [
+      "Next.js",
+      "React",
+      "Tailwind CSS",
+      "React Native",
+      "AzamPay",
+      "Django",
+    ],
   },
   {
     title: "Lugumya",
