@@ -14,7 +14,7 @@ export default function Card({
   stack = [],
 }: CardProps) {
   return (
-    <div className="group rounded-lg border-2 border-marshland-600 p-4 transition-all hover:shadow-lg dark:bg-marshland-900">
+    <div className="group rounded-lg border-2 dark:border-marshland-600 p-4 transition-all hover:shadow-lg dark:bg-marshland-900">
       <div className="flex items-center gap-2 mb-4">
         <Link
           href={url}
