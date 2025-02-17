@@ -24,21 +24,21 @@ export const projects = [
     title: "Lugumya",
     description:
       "A personal finance management app for tracking expenses and managing budgets with detailed insights.",
-    link: "https:github.com/tzniceguy",
+    link: "https://github.com/tzniceguy",
     stack: ["Django", "NextJS", "Tailwind CSS"],
   },
   {
     title: "Shopika",
     description:
       "An e-commerce website built with Django and styled with Tailwind CSS.",
-    link: "https:github.com/tzniceguy",
+    link: "https://github.com/tzniceguy",
     stack: ["Django", "Tailwind CSS", "HTML"],
   },
   {
     title: "candSqlLite",
     description:
       "A semester project demonstrating database operations using C and SQLite.",
-    link: "https:github.com/tzniceguy",
+    link: "https://github.com/tzniceguy",
     stack: ["C"],
   },
   {
