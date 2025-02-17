@@ -1,12 +1,12 @@
 import React from "react";
-import { build } from "@/lib/data";
+import { projects } from "@/lib/data";
 import Card from "./project-card";
 import { title } from "process";
 
 export default function Project() {
   return (
-    <div className="grid md:grid-cols-3">
-      {build.map((project) => (
+    <div className="grid md:grid-cols-3 gap-4">
+      {projects.map((project) => (
         <Card
           key={project.title}
           url={project.link}
