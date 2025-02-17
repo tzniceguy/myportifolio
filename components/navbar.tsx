@@ -7,7 +7,7 @@ import clsx from "clsx";
 
 const navbaritems = [
   { title: "about", href: "/" },
-  { title: "services", href: "/work" },
+  { title: "services", href: "#work" },
   { title: "blog", href: "/blog" },
 ];
 export default function NavBar() {
