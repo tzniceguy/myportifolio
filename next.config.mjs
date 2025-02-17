@@ -2,11 +2,14 @@ import createMDX from "@next/mdx";
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  //configure pageExtensions to support markdown and mdx files
-  pageExtensions: ["js", "ts", "tsx", "jsx", "md", "mdx"],
+  // Configure `pageExtensions` to include markdown and MDX files
+  pageExtensions: ["js", "jsx", "md", "mdx", "ts", "tsx"],
+  // Optionally, add any other Next.js config below
 };
 
 const withMDX = createMDX({
-  //adding markdown plugins
+  // Add markdown plugins here, as desired
 });
+
+// Merge MDX config with Next.js config
 export default withMDX(nextConfig);
