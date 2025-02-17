@@ -2,15 +2,15 @@ export const projects = [
   {
     title: "Chronicles",
     description:
-      "This repository chronicles my journey through a 30-day challenge focused on building user interfaces using Next.js and React. Each day, I will create a new UI component or page inspired by online design resources",
+      "A 30-day UI development challenge showcasing daily components and pages built with Next.js and React.",
     link: "https://30daysfrontenddevelopment.vercel.app/",
     stack: ["Next.js", "React", "Tailwind CSS"],
   },
   {
     title: "snbl",
     description:
-      "A full-featured e-commerce platform  that offers flexible payment options including installment plans. Features include product catalog, shopping cart, secure checkout process, and integrated payment gateway for installment payments.",
-    link: "snbl.vercel.app",
+      "An e-commerce platform with installment payment options, featuring product catalog, shopping cart, and secure checkout with AzamPay integration.",
+    link: "https://snbl.vercel.app",
     stack: [
       "Next.js",
       "React",
@@ -23,28 +23,28 @@ export const projects = [
   {
     title: "Lugumya",
     description:
-      "Lugumya Expense Tracker & Budgeting Web App: A user-friendly solution for personal finance management, empowering better expense tracking, budget control, and informed financial decisions.",
+      "A personal finance management app for tracking expenses and managing budgets with detailed insights.",
     link: "https:github.com/tzniceguy",
     stack: ["Django", "NextJS", "Tailwind CSS"],
   },
   {
     title: "Shopika",
     description:
-      "an ecommerce website made with Python Django framework and frontend crafted with html and tailwind css",
+      "An e-commerce website built with Django and styled with Tailwind CSS.",
     link: "https:github.com/tzniceguy",
+    stack: ["Django", "Tailwind CSS", "HTML"],
   },
-  { title: "EDITH", description: "", link: "https:github.com/tzniceguy" },
   {
     title: "candSqlLite",
     description:
-      "A semister project i made in Data insertion and retrieval from database using C and Sqlite Database",
+      "A semester project demonstrating database operations using C and SQLite.",
     link: "https:github.com/tzniceguy",
     stack: ["C"],
   },
   {
     title: "mrsoko",
-    description: "a simple landing page for a grocery store made with nextjs",
-    link: "mrsoko.vercel.app",
+    description: "A minimalist landing page for a grocery store.",
+    link: "https://mrsoko.vercel.app",
     stack: ["Next.js", "React", "Tailwind CSS"],
   },
 ];
