@@ -9,8 +9,8 @@ import PageTitle from "@/components/display-title";
 const space = Space_Grotesk({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Portifolio",
-  description: "about",
+  title: "tzniceguy",
+  description: "portifolio",
 };
 
 export default function RootLayout({
@@ -21,7 +21,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <body
-        className={`${space.className} flex min-h-screen space-y-6 py-12 px-8 flex-col gap-4 md:px-48 md:text-xl dark:bg-marshland-950 dark:text-gray-200`}
+        className={`${space.className} min-h-screen py-12 px-8 md:px-52 dark:bg-marshland-950 dark:text-gray-200`}
       >
         <ThemeProvider
           attribute="class"
