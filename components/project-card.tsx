@@ -1,5 +1,8 @@
+"use client";
+
 import React from "react";
 import Link from "next/link";
+import { motion } from "motion/react";
 
 interface CardProps {
   url: string;
@@ -15,10 +18,17 @@ export default function Card({
   stack = [],
 }: CardProps) {
   return (
-    <div className="md:shadow-md rounded-md hover:shadow-lg transition-shadow">
-      <Link href={url} className="font-semibold text-lg mb-4 hover:underline">
-        {title}
-      </Link>
+    <div className="md:shadow-md rounded-md border-2 p-2">
+      <div className="flex">
+        <Link
+          href={url}
+          target="_blank"
+          className="font-semibold text-lg mb-4 hover:underline"
+        >
+          {title}
+        </Link>
+        <div className="w-2 h-2 my-2 bg-green-500 rounded-full animate-pulse" />
+      </div>
       <p className="text-md mb-4">{description}</p>
       <div className="flex flex-wrap gap-2">
         {stack.map((tech) => (
@@ -30,3 +40,4 @@ export default function Card({
     </div>
   );
 }
+1;
