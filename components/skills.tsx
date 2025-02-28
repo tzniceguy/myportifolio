@@ -82,10 +82,7 @@ export default function Skills() {
       <h2 className="text-2xl md:text-3xl font-bold mb-6">Skills</h2>
       <div className="grid gap-6 md:grid-cols-3">
         {skillCategories.map((category) => (
-          <div
-            key={category.title}
-            className="p-6 rounded-lg border bg-white dark:bg-marshland-900 dark:border-marshland-800 hover:shadow-lg transition-shadow"
-          >
+          <div key={category.title} className="p-6 rounded-lg">
             <div className="flex items-center gap-3 mb-4">
               {category.icon()}
               <h3 className="text-lg font-semibold">{category.title}</h3>
